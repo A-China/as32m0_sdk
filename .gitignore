@@ -1,0 +1,6 @@
+/user/evb2/blinking/output/*.crf
+/user/evb2/blinking/output/*.o
+/user/evb2/blinking/output/*.d
+*.o
+*.crf
+*.d
