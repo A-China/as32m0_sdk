@@ -1,0 +1,183 @@
+Dependencies for Project 'sleep_perform', Target 'as32m0': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\..\..\as32m0\startup_as32m0.s)(0x605D9054)(--cpu Cortex-M0 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 531" --pd "ARMCM0 SETA 1"--list .\listings\startup_as32m0.lst --xref -o .\output\startup_as32m0.o --depend .\output\startup_as32m0.d)
+F (..\..\..\as32m0\system_as32m0.c)(0x5F10066E)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\system_as32m0.o --omf_browse .\output\system_as32m0.crf --depend .\output\system_as32m0.d)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\..\..\FWLib\as32m0_adc.c)(0x605D8E24)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_adc.o --omf_browse .\output\as32m0_adc.crf --depend .\output\as32m0_adc.d)
+I (..\..\..\FWLib\as32m0_adc.h)(0x605D8E14)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\..\..\FWLib\as32m0_dma.h)(0x5E7C18E4)
+F (..\..\..\FWLib\as32m0_dma.c)(0x5E7C1820)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_dma.o --omf_browse .\output\as32m0_dma.crf --depend .\output\as32m0_dma.d)
+I (..\..\..\FWLib\as32m0_dma.h)(0x5E7C18E4)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\..\..\FWLib\as32m0_gpio.c)(0x60595AFE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_gpio.o --omf_browse .\output\as32m0_gpio.crf --depend .\output\as32m0_gpio.d)
+I (..\..\..\FWLib\as32m0_gpio.h)(0x60594E5E)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\..\..\FWLib\as32m0_i2c.c)(0x5F1505BD)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_i2c.o --omf_browse .\output\as32m0_i2c.crf --depend .\output\as32m0_i2c.d)
+I (..\..\..\FWLib\as32m0_i2c.h)(0x605D8E1E)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\..\..\FWLib\as32m0_pinctrl.h)(0x5FD04149)
+I (..\..\..\FWLib\as32m0_gpio.h)(0x60594E5E)
+F (..\..\..\FWLib\as32m0_lvd.c)(0x5E7C182F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_lvd.o --omf_browse .\output\as32m0_lvd.crf --depend .\output\as32m0_lvd.d)
+I (..\..\..\FWLib\as32m0_lvd.h)(0x5EA6540E)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\..\..\FWLib\as32m0_pinctrl.c)(0x5E8ABFF6)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_pinctrl.o --omf_browse .\output\as32m0_pinctrl.crf --depend .\output\as32m0_pinctrl.d)
+I (..\..\..\FWLib\as32m0_pinctrl.h)(0x5FD04149)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\..\..\FWLib\as32m0_gpio.h)(0x60594E5E)
+F (..\..\..\FWLib\as32m0_pwm.c)(0x605D8CF4)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_pwm.o --omf_browse .\output\as32m0_pwm.crf --depend .\output\as32m0_pwm.d)
+I (..\..\..\FWLib\as32m0_pwm.h)(0x5EF2B4FC)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\..\..\FWLib\as32m0_sleep.c)(0x5EA01242)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_sleep.o --omf_browse .\output\as32m0_sleep.crf --depend .\output\as32m0_sleep.d)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\..\..\FWLib\as32m0_sleep.h)(0x5E7C1938)
+F (..\..\..\FWLib\as32m0_ssp.c)(0x605D8EB8)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_ssp.o --omf_browse .\output\as32m0_ssp.crf --depend .\output\as32m0_ssp.d)
+I (..\..\..\FWLib\as32m0_ssp.h)(0x605D8E91)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\..\..\FWLib\as32m0_sysctrl.c)(0x5ECF680C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_sysctrl.o --omf_browse .\output\as32m0_sysctrl.crf --depend .\output\as32m0_sysctrl.d)
+I (..\..\..\FWLib\as32m0_sysctrl.h)(0x6062B7D8)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\..\..\FWLib\as32m0_systick.c)(0x5ECF1C12)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_systick.o --omf_browse .\output\as32m0_systick.crf --depend .\output\as32m0_systick.d)
+I (..\..\..\FWLib\as32m0_systick.h)(0x5E7C1963)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\..\..\FWLib\as32m0_uart.c)(0x605D8D07)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_uart.o --omf_browse .\output\as32m0_uart.crf --depend .\output\as32m0_uart.d)
+I (..\..\..\FWLib\as32m0_uart.h)(0x605D8D17)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\..\..\FWLib\HardFaultHandler.c)(0x5E7C1831)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\hardfaulthandler.o --omf_browse .\output\hardfaulthandler.crf --depend .\output\hardfaulthandler.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\..\..\FWLib\as32m0_misc.c)(0x5F053CFA)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_misc.o --omf_browse .\output\as32m0_misc.crf --depend .\output\as32m0_misc.d)
+I (..\..\..\FWLib\as32m0_misc.h)(0x5F05520E)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\..\..\FWLib\as32m0_uart.h)(0x605D8D17)
+F (..\..\..\FWLib\as32m0_timer.c)(0x5EEB2BDE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\as32m0_timer.o --omf_browse .\output\as32m0_timer.crf --depend .\output\as32m0_timer.d)
+I (..\..\..\FWLib\as32m0_timer.h)(0x5EEB2C06)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (.\sleep_perform.c)(0x60B0A776)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\sleep_perform.o --omf_browse .\output\sleep_perform.crf --depend .\output\sleep_perform.d)
+I (..\..\..\printf_uart\printf_config.h)(0x5E8C4A7A)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\..\..\FWLib\as32m0_uart.h)(0x605D8D17)
+I (..\..\..\FWLib\as32m0_sleep.h)(0x5E7C1938)
+I (..\..\..\FWLib\as32m0_pinctrl.h)(0x5FD04149)
+I (..\..\..\FWLib\as32m0_gpio.h)(0x60594E5E)
+I (..\..\..\FWLib\as32m0_sysctrl.h)(0x6062B7D8)
+I (..\..\..\FWLib\as32m0_timer.h)(0x5EEB2C06)
+I (..\..\..\FWLib\as32m0_misc.h)(0x5F05520E)
+F (..\..\..\printf_uart\printf_config.c)(0x5E9D4B3A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\printf_config.o --omf_browse .\output\printf_config.crf --depend .\output\printf_config.d)
+I (..\..\..\printf_uart\printf_config.h)(0x5E8C4A7A)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\..\..\FWLib\as32m0_uart.h)(0x605D8D17)
+I (..\..\..\FWLib\as32m0_gpio.h)(0x60594E5E)
+I (..\..\..\FWLib\as32m0_sysctrl.h)(0x6062B7D8)
+I (..\..\..\FWLib\as32m0_pinctrl.h)(0x5FD04149)
+F (..\..\..\printf_uart\Retarget.c)(0x5EA0105E)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\..\as32m0 -I ..\..\..\CMSIS -I ..\..\..\FWLib -I ..\..\..\printf_uart-IC:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM0-o .\output\retarget.o --omf_browse .\output\retarget.crf --depend .\output\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\..\..\printf_uart\printf_config.h)(0x5E8C4A7A)
+I (..\..\..\as32m0\as32m0.h)(0x60A1DFE1)
+I (..\..\..\CMSIS\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\..\..\CMSIS\cmsis_version.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_compiler.h)(0x5D2590B6)
+I (..\..\..\CMSIS\cmsis_armcc.h)(0x5F15082C)
+I (..\..\..\FWLib\as32m0_uart.h)(0x605D8D17)

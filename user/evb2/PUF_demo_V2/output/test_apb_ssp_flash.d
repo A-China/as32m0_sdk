@@ -1,0 +1,14 @@
+.\output\test_apb_ssp_flash.o: test_apb_ssp_flash.c
+.\output\test_apb_ssp_flash.o: test_apb_ssp_flash.h
+.\output\test_apb_ssp_flash.o: ..\..\..\as32m0\as32m0.h
+.\output\test_apb_ssp_flash.o: ..\..\..\CMSIS\core_cm0.h
+.\output\test_apb_ssp_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\test_apb_ssp_flash.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\test_apb_ssp_flash.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\test_apb_ssp_flash.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\test_apb_ssp_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\test_apb_ssp_flash.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\test_apb_ssp_flash.o: ..\..\..\FWLib\as32m0_ssp.h
+.\output\test_apb_ssp_flash.o: ..\..\..\FWLib\as32m0_dma.h
+.\output\test_apb_ssp_flash.o: ..\..\..\FWLib\as32m0_pinctrl.h
+.\output\test_apb_ssp_flash.o: ..\..\..\FWLib\as32m0_uart.h

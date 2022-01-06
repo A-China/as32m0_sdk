@@ -1,0 +1,10 @@
+.\output\as32m0_pinctrl.o: ..\..\..\FWLib\as32m0_pinctrl.c
+.\output\as32m0_pinctrl.o: ..\..\..\FWLib\as32m0_pinctrl.h
+.\output\as32m0_pinctrl.o: ..\..\..\as32m0\as32m0.h
+.\output\as32m0_pinctrl.o: ..\..\..\CMSIS\core_cm0.h
+.\output\as32m0_pinctrl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\as32m0_pinctrl.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\as32m0_pinctrl.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\as32m0_pinctrl.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\as32m0_pinctrl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\as32m0_pinctrl.o: ..\..\..\FWLib\as32m0_gpio.h

@@ -1,0 +1,13 @@
+.\output\test_sd_card.o: test_SD_card.c
+.\output\test_sd_card.o: test_SD_card.h
+.\output\test_sd_card.o: ..\..\..\as32m0\as32m0.h
+.\output\test_sd_card.o: ..\..\..\CMSIS\core_cm0.h
+.\output\test_sd_card.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\test_sd_card.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\test_sd_card.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\test_sd_card.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\test_sd_card.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\test_sd_card.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\test_sd_card.o: ..\..\..\FWLib\as32m0_ssp.h
+.\output\test_sd_card.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\test_sd_card.o: ..\..\..\FWLib\as32m0_dma.h

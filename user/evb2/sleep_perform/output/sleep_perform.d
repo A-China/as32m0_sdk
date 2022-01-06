@@ -1,0 +1,16 @@
+.\output\sleep_perform.o: sleep_perform.c
+.\output\sleep_perform.o: ..\..\..\printf_uart\printf_config.h
+.\output\sleep_perform.o: ..\..\..\as32m0\as32m0.h
+.\output\sleep_perform.o: ..\..\..\CMSIS\core_cm0.h
+.\output\sleep_perform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\sleep_perform.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\sleep_perform.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\sleep_perform.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\sleep_perform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\sleep_perform.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\sleep_perform.o: ..\..\..\FWLib\as32m0_sleep.h
+.\output\sleep_perform.o: ..\..\..\FWLib\as32m0_pinctrl.h
+.\output\sleep_perform.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\sleep_perform.o: ..\..\..\FWLib\as32m0_sysctrl.h
+.\output\sleep_perform.o: ..\..\..\FWLib\as32m0_timer.h
+.\output\sleep_perform.o: ..\..\..\FWLib\as32m0_misc.h

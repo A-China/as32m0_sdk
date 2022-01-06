@@ -1,0 +1,12 @@
+.\output\nvr_flash.o: NVR_flash.c
+.\output\nvr_flash.o: ..\..\..\printf_uart\printf_config.h
+.\output\nvr_flash.o: ..\..\..\as32m0\as32m0.h
+.\output\nvr_flash.o: ..\..\..\CMSIS\core_cm0.h
+.\output\nvr_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\nvr_flash.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\nvr_flash.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\nvr_flash.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\nvr_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\nvr_flash.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\nvr_flash.o: ..\..\..\FWLib\as32m0_nvr.h
+.\output\nvr_flash.o: ..\..\..\FWLib\as32m0_misc.h

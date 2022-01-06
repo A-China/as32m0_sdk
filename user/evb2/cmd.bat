@@ -1,0 +1,1 @@
+jlink.exe -device CORTEX-M0 evb2load.txt

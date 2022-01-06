@@ -1,0 +1,13 @@
+.\output\timer_example.o: Timer_example.c
+.\output\timer_example.o: ..\..\..\printf_uart\printf_config.h
+.\output\timer_example.o: ..\..\..\as32m0\as32m0.h
+.\output\timer_example.o: ..\..\..\CMSIS\core_cm0.h
+.\output\timer_example.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\timer_example.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\timer_example.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\timer_example.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\timer_example.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\timer_example.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\timer_example.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\timer_example.o: ..\..\..\FWLib\as32m0_misc.h
+.\output\timer_example.o: ..\..\..\FWLib\as32m0_timer.h

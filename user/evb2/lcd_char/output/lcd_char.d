@@ -1,0 +1,16 @@
+.\output\lcd_char.o: lcd_char.c
+.\output\lcd_char.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\lcd_char.o: ..\..\..\printf_uart\printf_config.h
+.\output\lcd_char.o: ..\..\..\as32m0\as32m0.h
+.\output\lcd_char.o: ..\..\..\CMSIS\core_cm0.h
+.\output\lcd_char.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\lcd_char.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\lcd_char.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\lcd_char.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\lcd_char.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\lcd_char.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\lcd_char.o: ..\..\..\FWLib\as32m0_lcd_character_i2c.h
+.\output\lcd_char.o: ..\..\..\FWLib\as32m0_i2c.h
+.\output\lcd_char.o: ..\..\..\FWLib\as32m0_pinctrl.h
+.\output\lcd_char.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\lcd_char.o: ..\..\..\FWLib\as32m0_misc.h

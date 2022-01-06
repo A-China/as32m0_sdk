@@ -1,0 +1,26 @@
+--cpu Cortex-M0
+".\output\startup_as32m0.o"
+".\output\system_as32m0.o"
+".\output\as32m0_adc.o"
+".\output\as32m0_des.o"
+".\output\as32m0_dma.o"
+".\output\as32m0_gpio.o"
+".\output\as32m0_i2c.o"
+".\output\as32m0_lvd.o"
+".\output\as32m0_pinctrl.o"
+".\output\as32m0_pwm.o"
+".\output\as32m0_sleep.o"
+".\output\as32m0_ssp.o"
+".\output\as32m0_sysctrl.o"
+".\output\as32m0_systick.o"
+".\output\as32m0_timer.o"
+".\output\as32m0_uart.o"
+".\output\hardfaulthandler.o"
+".\output\as32m0_misc.o"
+".\output\main.o"
+".\output\ledcontrol.o"
+".\output\printf_config.o"
+".\output\retarget.o"
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\led_matrix.map" -o .\output\led_matrix.axf

@@ -1,0 +1,9 @@
+.\output\retarget.o: ..\..\..\printf_uart\Retarget.c
+.\output\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\retarget.o: ..\..\..\printf_uart\printf_config.h
+.\output\retarget.o: ..\..\..\as32m0\as32m0.h
+.\output\retarget.o: ..\..\..\CMSIS\core_cm0.h
+.\output\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\retarget.o: ..\..\..\CMSIS\core_cmInstr.h
+.\output\retarget.o: ..\..\..\CMSIS\core_cmFunc.h
+.\output\retarget.o: ..\..\..\FWLib\as32m0_uart.h

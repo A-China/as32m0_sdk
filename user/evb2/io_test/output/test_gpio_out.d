@@ -1,0 +1,15 @@
+.\output\test_gpio_out.o: Src\test_gpio_out.c
+.\output\test_gpio_out.o: Src\test_gpio_out.h
+.\output\test_gpio_out.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\test_gpio_out.o: ..\..\..\as32m0\as32m0.h
+.\output\test_gpio_out.o: ..\..\..\CMSIS\core_cm0.h
+.\output\test_gpio_out.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\test_gpio_out.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\test_gpio_out.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\test_gpio_out.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\test_gpio_out.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\test_gpio_out.o: ..\..\..\FWLib\as32m0_sysctrl.h
+.\output\test_gpio_out.o: ..\..\..\FWLib\as32m0_pinctrl.h
+.\output\test_gpio_out.o: ..\..\..\printf_uart\printf_config.h
+.\output\test_gpio_out.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\test_gpio_out.o: ..\..\..\FWLib\as32m0_misc.h

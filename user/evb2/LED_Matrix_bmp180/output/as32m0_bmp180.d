@@ -1,0 +1,16 @@
+.\output\as32m0_bmp180.o: ..\..\..\FWLib\as32m0_BMP180.c
+.\output\as32m0_bmp180.o: ..\..\..\FWLib\as32m0_BMP180.h
+.\output\as32m0_bmp180.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\output\as32m0_bmp180.o: ..\..\..\FWLib\as32m0_i2c.h
+.\output\as32m0_bmp180.o: ..\..\..\as32m0\as32m0.h
+.\output\as32m0_bmp180.o: ..\..\..\CMSIS\core_cm0.h
+.\output\as32m0_bmp180.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\as32m0_bmp180.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\as32m0_bmp180.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\as32m0_bmp180.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\as32m0_bmp180.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\as32m0_bmp180.o: ..\..\..\FWLib\as32m0_pinctrl.h
+.\output\as32m0_bmp180.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\as32m0_bmp180.o: ..\..\..\FWLib\as32m0_misc.h
+.\output\as32m0_bmp180.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\as32m0_bmp180.o: ..\..\..\printf_uart\printf_config.h

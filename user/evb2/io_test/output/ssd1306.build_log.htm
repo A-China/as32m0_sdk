@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Henry Chen, DME Electronics, LIC=03CTG-V1Q6D-9GZ70-BEW2N-AENBQ-R3H0H
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+D:\A_Projs\as32m0\user\evb2\ssd13062\ssd1306.uvprojx
+Project File Date:  06/30/2021
+
+<h2>Output:</h2>
+  
+Warning: *** SUPPORT EXPIRED, NEW PRODUCT SERIAL NUMBER REQUIRED ***
+         *** Running with Code Size Limit: 32K                   ***
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'as32m0'
+compiling SSD1306OLED.c...
+Src\SSD1306OLED.c(926): warning:  #174-D: expression has no effect
+        if( (bitmap[j/8 + i*w], j % 8) == 1 )			// need bit test method
+Src\SSD1306OLED.c: 1 warning, 0 errors
+linking...
+Program Size: Code=7152 RO-data=1664 RW-data=1064 ZI-data=2560  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin -o ssd1306.bin ./output/ssd1306.axf
+After Build - User command #2: fromelf -c -o ssd1306.txt ./output/ssd1306.axf
+".\output\ssd1306.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

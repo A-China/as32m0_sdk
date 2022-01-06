@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: FA Engineering, DME, LIC=14HWF-6IB8J-DYVV3-AV8ZJ-9RM7A-A4XDV
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DARMCM1.DLL V1.17.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TARMCM1.DLL V1.12.0.0
+ 
+<h2>Project:</h2>
+D:\A_Projs\as32m0\user\evb2\des\des.uvprojx
+Project File Date:  06/30/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'as32m0'
+assembling startup_as32m0.s...
+assembling initial_MCU007.s...
+compiling as32m0_lvd.c...
+compiling as32m0_gpio.c...
+compiling as32m0_dma.c...
+compiling as32m0_i2c.c...
+compiling as32m0_adc.c...
+compiling as32m0_pinctrl.c...
+compiling as32m0_pwm.c...
+compiling as32m0_ssp.c...
+compiling as32m0_sleep.c...
+compiling as32m0_systick.c...
+compiling HardFaultHandler.c...
+compiling as32m0_timer.c...
+compiling as32m0_uart.c...
+compiling as32m0_sysctrl.c...
+compiling as32m0_misc.c...
+compiling des.c...
+des.c(95): warning:  #175-D: subscript out of range
+  			temp[0] = encrypt_data[i][8];
+des.c(96): warning:  #175-D: subscript out of range
+  			temp[1] = decrypt_data[i][8];
+des.c(97): warning:  #175-D: subscript out of range
+  			temp[2] = src_data[i][8];
+des.c(99): warning:  #175-D: subscript out of range
+  			decrypt_data[i][8] = encrypt_data[i][8] = src_data[i][8] = '\0';
+des.c(99): warning:  #175-D: subscript out of range
+  			decrypt_data[i][8] = encrypt_data[i][8] = src_data[i][8] = '\0';
+des.c(99): warning:  #175-D: subscript out of range
+  			decrypt_data[i][8] = encrypt_data[i][8] = src_data[i][8] = '\0';
+des.c(104): warning:  #175-D: subscript out of range
+  			encrypt_data[i][8] = temp[0];
+des.c(105): warning:  #175-D: subscript out of range
+  			decrypt_data[i][8] = temp[1];
+des.c(106): warning:  #175-D: subscript out of range
+  			src_data[i][8]     = temp[2];
+des.c(113): warning:  #1-D: last line of file ends without a newline
+  }
+des.c: 10 warnings, 0 errors
+compiling Retarget.c...
+compiling as32m0_des.c...
+..\..\..\FWLib\as32m0_des.c(25): warning:  #177-D: function "des_check_busy"  was declared but never referenced
+  static int32_t des_check_busy(void)
+..\..\..\FWLib\as32m0_des.c(174): warning:  #177-D: function "set_des_key"  was declared but never referenced
+  static void set_des_key(uint32_t key)
+..\..\..\FWLib\as32m0_des.c: 2 warnings, 0 errors
+compiling printf_config.c...
+linking...
+Program Size: Code=3672 RO-data=164 RW-data=164 ZI-data=2820  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin -o des.bin ./output/des.axf
+After Build - User command #2: fromelf -c -o des.txt ./output/des.axf
+".\output\des.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_as32m0
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM0\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

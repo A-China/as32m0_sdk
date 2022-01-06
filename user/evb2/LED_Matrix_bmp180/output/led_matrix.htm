@@ -1,0 +1,611 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\output\led_matrix.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\output\led_matrix.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Aug 24 16:54:12 2021
+<BR><P>
+<H3>Maximum Stack Usage =        132 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; config_uart0 &rArr; apUART_Initialize &rArr; apUART_BaudRateSet &rArr; __aeabi_uidivmod
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1]">NMI_Handler</a><BR>
+ <LI><a href="#[3]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3]">SVC_Handler</a><BR>
+ <LI><a href="#[4]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">PendSV_Handler</a><BR>
+ <LI><a href="#[6]">n00_WDG_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[6]">n00_WDG_IRQHandler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[2]">HardFault_Handler</a> from hardfaulthandler.o(.emb_text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[4]">PendSV_Handler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[1b]">Reset_Handler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[3]">SVC_Handler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[5]">SysTick_Handler</a> from as32m0_systick.o(i.SysTick_Handler) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[19]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_as32m0.o(.text)
+ <LI><a href="#[1a]">fputc</a> from retarget.o(i.fputc) referenced from printf8.o(i.__0printf$8)
+ <LI><a href="#[18]">hardfault_handler_c</a> from hardfaulthandler.o(i.hardfault_handler_c) referenced from hardfaulthandler.o(.emb_text)
+ <LI><a href="#[17]">main</a> from main.o(i.main) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
+ <LI><a href="#[6]">n00_WDG_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[7]">n01_DMA_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[8]">n02_ADC_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[9]">n03_LVD_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[a]">n04_PWM0_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[b]">n05_PWM1_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[c]">n06_PWM2_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[d]">n07_PWM3_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[e]">n08_UART0_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[f]">n09_UART1_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[10]">n10_TMR0_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[11]">n11_TMR1_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[12]">n12_TMR2_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[13]">n13_I2C_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[14]">n14_SPI_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[15]">n15_GIO_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+ <LI><a href="#[16]">n16_flash_IRQHandler</a> from startup_as32m0.o(.text) referenced from startup_as32m0.o(RESET)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[19]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(.text)
+</UL>
+<P><STRONG><a name="[57]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[1c]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[22]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[58]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+
+<P><STRONG><a name="[59]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+
+<P><STRONG><a name="[5a]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+
+<P><STRONG><a name="[5b]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+
+<P><STRONG><a name="[5c]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, hardfaulthandler.o(.emb_text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>n00_WDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;n00_WDG_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;n00_WDG_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>n01_DMA_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>n02_ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>n03_LVD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>n04_PWM0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>n05_PWM1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>n06_PWM2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>n07_PWM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>n08_UART0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>n09_UART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>n10_TMR0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>n11_TMR1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>n12_TMR2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>n13_I2C_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>n14_SPI_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>n15_GIO_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>n16_flash_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_as32m0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[5d]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[35]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = __aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apUART_BaudRateSet
+</UL>
+
+<P><STRONG><a name="[1f]"></a>__aeabi_uldivmod</STRONG> (Thumb, 96 bytes, Stack size 48 bytes, uldiv.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<LI><a href="#[21]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[21]"></a>__aeabi_llsl</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, llshl.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+
+<P><STRONG><a name="[5e]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llshl.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[5f]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[20]"></a>__aeabi_llsr</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, llushr.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+
+<P><STRONG><a name="[60]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llushr.o(.text), UNUSED)
+
+<P><STRONG><a name="[23]"></a>GPIO_Init</STRONG> (Thumb, 204 bytes, Stack size 4 bytes, as32m0_gpio.o(i.GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GPIO_Init &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[2a]"></a>PinCtrl_GIOSet</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, as32m0_pinctrl.o(i.PinCtrl_GIOSet))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = PinCtrl_GIOSet
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_uart0
+<LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Spi_init
+</UL>
+
+<P><STRONG><a name="[25]"></a>SER_GetChar</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, printf_config.o(i.SER_GetChar))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SER_GetChar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_ReceData
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[27]"></a>SER_PutChar</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, printf_config.o(i.SER_PutChar))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SER_PutChar &rArr; sendchar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendchar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+</UL>
+
+<P><STRONG><a name="[3d]"></a>SYSCTRL_ClrReset_APB_PinCtrl</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, as32m0_sysctrl.o(i.SYSCTRL_ClrReset_APB_PinCtrl))
+<BR><BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_uart0
+</UL>
+
+<P><STRONG><a name="[3c]"></a>SYSCTRL_ClrReset_APB_SCI0</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, as32m0_sysctrl.o(i.SYSCTRL_ClrReset_APB_SCI0))
+<BR><BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_uart0
+</UL>
+
+<P><STRONG><a name="[29]"></a>Spi_init</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, main.o(i.Spi_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = Spi_init &rArr; ssp_config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ssp_config
+<LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PinCtrl_GIOSet
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, as32m0_systick.o(i.SysTick_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_as32m0.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>SystemInit</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, system_as32m0.o(i.SystemInit))
+<BR><BR>[Called By]<UL><LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reset_Handler
+</UL>
+
+<P><STRONG><a name="[26]"></a>UART_ReceData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, as32m0_uart.o(i.UART_ReceData))
+<BR><BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SER_GetChar
+</UL>
+
+<P><STRONG><a name="[50]"></a>UART_SendData</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, as32m0_uart.o(i.UART_SendData))
+<BR><BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendchar
+</UL>
+
+<P><STRONG><a name="[2c]"></a>__0printf$8</STRONG> (Thumb, 24 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[61]"></a>__1printf$8</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
+
+<P><STRONG><a name="[41]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hardfault_handler_c
+</UL>
+
+<P><STRONG><a name="[24]"></a>__ARM_common_switch8</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, as32m0_dma.o(i.__ARM_common_switch8))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+<LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[62]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[63]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[64]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[30]"></a>apPWM_Config</STRONG> (Thumb, 176 bytes, Stack size 16 bytes, as32m0_pwm.o(i.apPWM_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = apPWM_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apPWM_Int_Enable
+<LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apPWM_Enable
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apPWM_Check_CMD_Busy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_beep
+</UL>
+
+<P><STRONG><a name="[33]"></a>apPWM_Enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, as32m0_pwm.o(i.apPWM_Enable))
+<BR><BR>[Called By]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apPWM_Config
+</UL>
+
+<P><STRONG><a name="[32]"></a>apPWM_Int_Enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, as32m0_pwm.o(i.apPWM_Int_Enable))
+<BR><BR>[Called By]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apPWM_Config
+</UL>
+
+<P><STRONG><a name="[52]"></a>apSSP_DeviceBusyGet</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, as32m0_ssp.o(i.apSSP_DeviceBusyGet))
+<BR><BR>[Called By]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spiTransfer
+</UL>
+
+<P><STRONG><a name="[53]"></a>apSSP_DeviceDisable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, as32m0_ssp.o(i.apSSP_DeviceDisable))
+<BR><BR>[Called By]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spiTransfer
+</UL>
+
+<P><STRONG><a name="[51]"></a>apSSP_DeviceEnable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, as32m0_ssp.o(i.apSSP_DeviceEnable))
+<BR><BR>[Called By]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spiTransfer
+</UL>
+
+<P><STRONG><a name="[56]"></a>apSSP_DeviceParametersSet</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, as32m0_ssp.o(i.apSSP_DeviceParametersSet))
+<BR><BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ssp_config
+</UL>
+
+<P><STRONG><a name="[55]"></a>apSSP_Initialize</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, as32m0_ssp.o(i.apSSP_Initialize))
+<BR><BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ssp_config
+</UL>
+
+<P><STRONG><a name="[54]"></a>apSSP_ReadFIFO</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, as32m0_ssp.o(i.apSSP_ReadFIFO))
+<BR><BR>[Called By]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spiTransfer
+</UL>
+
+<P><STRONG><a name="[34]"></a>apUART_BaudRateSet</STRONG> (Thumb, 58 bytes, Stack size 40 bytes, as32m0_uart.o(i.apUART_BaudRateSet))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = apUART_BaudRateSet &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apUART_Initialize
+</UL>
+
+<P><STRONG><a name="[4c]"></a>apUART_Check_BUSY</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, as32m0_uart.o(i.apUART_Check_BUSY))
+<BR><BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[37]"></a>apUART_Check_RXFIFO_EMPTY</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, as32m0_uart.o(i.apUART_Check_RXFIFO_EMPTY))
+<BR><BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apUART_Initialize
+</UL>
+
+<P><STRONG><a name="[4f]"></a>apUART_Check_TXFIFO_FULL</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, as32m0_uart.o(i.apUART_Check_TXFIFO_FULL))
+<BR><BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendchar
+</UL>
+
+<P><STRONG><a name="[36]"></a>apUART_Initialize</STRONG> (Thumb, 116 bytes, Stack size 16 bytes, as32m0_uart.o(i.apUART_Initialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = apUART_Initialize &rArr; apUART_BaudRateSet &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apUART_Check_RXFIFO_EMPTY
+<LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apUART_BaudRateSet
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_uart0
+</UL>
+
+<P><STRONG><a name="[38]"></a>clearDisplay</STRONG> (Thumb, 60 bytes, Stack size 24 bytes, ledcontrol.o(i.clearDisplay))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = clearDisplay &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spiTransfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledControl_init
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledSetup
+<LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearScreen
+</UL>
+
+<P><STRONG><a name="[3a]"></a>clearScreen</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, main.o(i.clearScreen))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = clearScreen &rArr; clearDisplay &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearDisplay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[3b]"></a>config_uart0</STRONG> (Thumb, 198 bytes, Stack size 48 bytes, printf_config.o(i.config_uart0))
+<BR><BR>[Stack]<UL><LI>Max Depth = 116<LI>Call Chain = config_uart0 &rArr; apUART_Initialize &rArr; apUART_BaudRateSet &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PinCtrl_GIOSet
+<LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apUART_Initialize
+<LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYSCTRL_ClrReset_APB_SCI0
+<LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYSCTRL_ClrReset_APB_PinCtrl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[3f]"></a>delay</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, as32m0_misc.o(i.delay))
+<BR><BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_s
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+</UL>
+
+<P><STRONG><a name="[3e]"></a>delay_ms</STRONG> (Thumb, 18 bytes, Stack size 4 bytes, as32m0_misc.o(i.delay_ms))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = delay_ms
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loadBufferLong
+</UL>
+
+<P><STRONG><a name="[40]"></a>delay_s</STRONG> (Thumb, 16 bytes, Stack size 4 bytes, as32m0_misc.o(i.delay_s))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = delay_s
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1a]"></a>fputc</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, retarget.o(i.fputc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = fputc &rArr; SER_PutChar &rArr; sendchar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SER_PutChar
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> printf8.o(i.__0printf$8)
+</UL>
+<P><STRONG><a name="[18]"></a>hardfault_handler_c</STRONG> (Thumb, 108 bytes, Stack size 16 bytes, hardfaulthandler.o(i.hardfault_handler_c))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = hardfault_handler_c &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> hardfaulthandler.o(.emb_text)
+</UL>
+<P><STRONG><a name="[42]"></a>init_beep</STRONG> (Thumb, 68 bytes, Stack size 56 bytes, main.o(i.init_beep))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = init_beep &rArr; apPWM_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apPWM_Config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[43]"></a>ledControl_init</STRONG> (Thumb, 128 bytes, Stack size 40 bytes, ledcontrol.o(i.ledControl_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = ledControl_init &rArr; clearDisplay &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spiTransfer
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setScanLimit
+<LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;shutdown
+<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearDisplay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[46]"></a>ledSetup</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, main.o(i.ledSetup))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = ledSetup &rArr; clearDisplay &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;shutdown
+<LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setIntensity
+<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearDisplay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[48]"></a>loadBufferLong</STRONG> (Thumb, 116 bytes, Stack size 24 bytes, main.o(i.loadBufferLong))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = loadBufferLong &rArr; printBufferLong &rArr; setRow &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rotateBufferLongRight
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rotateBufferLongLeft
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;printBufferLong
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;scrollMessage
+<LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[17]"></a>main</STRONG> (Thumb, 388 bytes, Stack size 16 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 132<LI>Call Chain = main &rArr; config_uart0 &rArr; apUART_Initialize &rArr; apUART_BaudRateSet &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+<LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+<LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledControl_init
+<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_uart0
+<LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SER_GetChar
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;scrollMessage
+<LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rotateBufferLongRight
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rotateBufferLongLeft
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;printBufferLong
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loadBufferLong
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledSetup
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_beep
+<LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearScreen
+<LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Spi_init
+<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_s
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apUART_Check_RXFIFO_EMPTY
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apUART_Check_BUSY
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P><STRONG><a name="[4b]"></a>printBufferLong</STRONG> (Thumb, 280 bytes, Stack size 16 bytes, main.o(i.printBufferLong))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = printBufferLong &rArr; setRow &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setRow
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loadBufferLong
+</UL>
+
+<P><STRONG><a name="[49]"></a>rotateBufferLongLeft</STRONG> (Thumb, 194 bytes, Stack size 8 bytes, main.o(i.rotateBufferLongLeft))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = rotateBufferLongLeft
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loadBufferLong
+</UL>
+
+<P><STRONG><a name="[4a]"></a>rotateBufferLongRight</STRONG> (Thumb, 240 bytes, Stack size 8 bytes, main.o(i.rotateBufferLongRight))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = rotateBufferLongRight
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loadBufferLong
+</UL>
+
+<P><STRONG><a name="[4d]"></a>scrollMessage</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, main.o(i.scrollMessage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = scrollMessage &rArr; loadBufferLong &rArr; printBufferLong &rArr; setRow &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;loadBufferLong
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[28]"></a>sendchar</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, printf_config.o(i.sendchar))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = sendchar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apUART_Check_TXFIFO_FULL
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SendData
+</UL>
+<BR>[Called By]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SER_PutChar
+</UL>
+
+<P><STRONG><a name="[47]"></a>setIntensity</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, ledcontrol.o(i.setIntensity))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = setIntensity &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spiTransfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledSetup
+</UL>
+
+<P><STRONG><a name="[4e]"></a>setRow</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, ledcontrol.o(i.setRow))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = setRow &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spiTransfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;printBufferLong
+</UL>
+
+<P><STRONG><a name="[44]"></a>setScanLimit</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, ledcontrol.o(i.setScanLimit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = setScanLimit &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spiTransfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledControl_init
+</UL>
+
+<P><STRONG><a name="[45]"></a>shutdown</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, ledcontrol.o(i.shutdown))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = shutdown &rArr; spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spiTransfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledControl_init
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledSetup
+</UL>
+
+<P><STRONG><a name="[39]"></a>spiTransfer</STRONG> (Thumb, 118 bytes, Stack size 32 bytes, ledcontrol.o(i.spiTransfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = spiTransfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apSSP_ReadFIFO
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apSSP_DeviceEnable
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apSSP_DeviceDisable
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apSSP_DeviceBusyGet
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setScanLimit
+<LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;shutdown
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setRow
+<LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setIntensity
+<LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledControl_init
+<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearDisplay
+</UL>
+
+<P><STRONG><a name="[2b]"></a>ssp_config</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, as32m0_ssp.o(i.ssp_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ssp_config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apSSP_Initialize
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apSSP_DeviceParametersSet
+</UL>
+<BR>[Called By]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Spi_init
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[31]"></a>apPWM_Check_CMD_Busy</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, as32m0_pwm.o(i.apPWM_Check_CMD_Busy))
+<BR><BR>[Called By]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;apPWM_Config
+</UL>
+
+<P><STRONG><a name="[2d]"></a>_printf_core</STRONG> (Thumb, 1020 bytes, Stack size 104 bytes, printf8.o(i._printf_core), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+<LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+<LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0printf$8
+</UL>
+
+<P><STRONG><a name="[2f]"></a>_printf_post_padding</STRONG> (Thumb, 32 bytes, Stack size 24 bytes, printf8.o(i._printf_post_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[2e]"></a>_printf_pre_padding</STRONG> (Thumb, 44 bytes, Stack size 40 bytes, printf8.o(i._printf_pre_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

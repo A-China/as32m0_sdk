@@ -1,0 +1,55 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 EXPORT           initial_MCU007
+    2 00000000                 AREA             INITIAL_CODE, CODE, READONLY
+    3 00000000                 ALIGN
+    4 00000000                 ENTRY
+    5 00000000         initial_MCU007
+                               PROC
+    6 00000000 4A01            LDR              R2, =0x400600A0
+    7 00000002 4B02            LDR              R3, =0x0000012D
+    8 00000004 6013            STR              R3, [R2]
+    9 00000006         ;LDR  R2, =0x40090000
+   10 00000006         ;LDR     R3, =0x00000001
+   11 00000006         ;STR  R3, [R2]
+   12 00000006 4770            BX               LR
+   13 00000008                 ENDP
+   14 00000008         
+   15 00000008         
+   16 00000008                 END
+              400600A0 
+              0000012D 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
+ork --depend=.\output\initial_mcu007.d -o.\output\initial_mcu007.o -IC:\Users\h
+enry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include -IC:\Kei
+l_v5\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_V
+ERSION SETA 531" --predefine="ARMCM0 SETA 1" --list=.\listings\initial_mcu007.l
+st ..\..\..\as32m0\initial_MCU007.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+INITIAL_CODE 00000000
+
+Symbol: INITIAL_CODE
+   Definitions
+      At line 2 in file ..\..\..\as32m0\initial_MCU007.s
+   Uses
+      None
+Comment: INITIAL_CODE unused
+initial_MCU007 00000000
+
+Symbol: initial_MCU007
+   Definitions
+      At line 5 in file ..\..\..\as32m0\initial_MCU007.s
+   Uses
+      At line 1 in file ..\..\..\as32m0\initial_MCU007.s
+Comment: initial_MCU007 used once
+2 symbols
+337 symbols in table

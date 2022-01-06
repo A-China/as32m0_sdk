@@ -1,0 +1,17 @@
+.\output\io_test.o: Src\io_test.c
+.\output\io_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\io_test.o: ..\..\..\printf_uart\printf_config.h
+.\output\io_test.o: ..\..\..\as32m0\as32m0.h
+.\output\io_test.o: ..\..\..\CMSIS\core_cm0.h
+.\output\io_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\io_test.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\io_test.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\io_test.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\io_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\io_test.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\io_test.o: Src\test_gpio_out.h
+.\output\io_test.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\io_test.o: ..\..\..\FWLib\as32m0_sysctrl.h
+.\output\io_test.o: ..\..\..\FWLib\as32m0_pinctrl.h
+.\output\io_test.o: ..\..\..\FWLib\as32m0_pwm.h
+.\output\io_test.o: ..\..\..\FWLib\as32m0_misc.h

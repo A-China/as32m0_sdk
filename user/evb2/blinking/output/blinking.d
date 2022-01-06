@@ -1,0 +1,14 @@
+.\output\blinking.o: blinking.c
+.\output\blinking.o: ..\..\..\as32m0\as32m0.h
+.\output\blinking.o: ..\..\..\CMSIS\core_cm0.h
+.\output\blinking.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\blinking.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\blinking.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\blinking.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\blinking.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\blinking.o: ..\..\..\printf_uart\printf_config.h
+.\output\blinking.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\blinking.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\blinking.o: ..\..\..\FWLib\as32m0_misc.h
+.\output\blinking.o: ..\..\..\FWLib\as32m0_timer.h
+.\output\blinking.o: ..\..\..\FWLib\as32m0_systick.h

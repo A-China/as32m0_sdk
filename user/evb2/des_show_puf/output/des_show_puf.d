@@ -1,0 +1,16 @@
+.\output\des_show_puf.o: des_show_puf.c
+.\output\des_show_puf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\des_show_puf.o: ..\..\..\printf_uart\printf_config.h
+.\output\des_show_puf.o: ..\..\..\as32m0\as32m0.h
+.\output\des_show_puf.o: ..\..\..\CMSIS\core_cm0.h
+.\output\des_show_puf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\des_show_puf.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\des_show_puf.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\des_show_puf.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\des_show_puf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\des_show_puf.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\des_show_puf.o: ..\..\..\FWLib\as32m0_des.h
+.\output\des_show_puf.o: ..\..\..\FWLib\as32m0_misc.h
+.\output\des_show_puf.o: ..\..\..\FWLib\as32m0_pinctrl.h
+.\output\des_show_puf.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\des_show_puf.o: ..\..\..\FWLib\as32m0_timer.h

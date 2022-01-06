@@ -1,0 +1,33 @@
+
+T0830 000:180 SEGGER J-Link V6.50 Log File (0001ms, 0086ms total)
+T0830 000:180 DLL Compiled: Aug 16 2019 14:30:54 (0001ms, 0086ms total)
+T0830 000:180 Logging started @ 2020-06-18 01:26 (0001ms, 0086ms total)
+T0830 000:181 JLINK_SetWarnOutHandler(...) (0000ms, 0086ms total)
+T0830 000:181 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled May 17 2019 09:50:41
+Hardware: V9.50
+S/N: 13562039
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0049ms, 0135ms total)
+T0830 000:181 WEBSRV Webserver running on local port 19080 (0050ms, 0136ms total)
+T0830 000:181   returns O.K. (0050ms, 0136ms total)
+T0830 000:231 JLINK_SetErrorOutHandler(...) (0000ms, 0136ms total)
+T0830 000:231 JLINK_ExecCommand("ProjectFile = "D:\A_Projs\as32m0\user\evb2\PUF_demo_V2\JLinkSettings.ini"", ...). Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref (0375ms, 0511ms total)
+T0830 000:231 XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink_V650\JLinkDevices.xml (0385ms, 0521ms total)
+T0830 000:231 C:\Program Files (x86)\SEGGER\JLink_V650\JLinkDevices.xml evaluated successfully. (0387ms, 0523ms total)
+T0830 000:231   returns 0x00 (0659ms, 0795ms total)
+T0830 000:894 JLINK_ExecCommand("Device = ARMCM0", ...). Device "CORTEX-M0" selected.  returns 0x00 (0007ms, 0802ms total)
+T0830 000:901 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 0802ms total)
+T0830 000:901 JLINK_GetHardwareVersion()  returns 0x17318 (0000ms, 0802ms total)
+T0830 000:901 JLINK_GetDLLVersion()  returns 65000 (0000ms, 0802ms total)
+T0830 000:901 JLINK_GetFirmwareString(...) (0000ms, 0802ms total)
+T0830 000:908 JLINK_GetDLLVersion()  returns 65000 (0000ms, 0802ms total)
+T0830 000:908 JLINK_GetCompileDateTime() (0000ms, 0802ms total)
+T0830 000:910 JLINK_GetFirmwareString(...) (0000ms, 0802ms total)
+T0830 000:912 JLINK_GetHardwareVersion()  returns 0x17318 (0000ms, 0802ms total)
+T0830 000:947 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0002ms, 0804ms total)
+T0830 000:950 JLINK_SetSpeed(5000) (0000ms, 0805ms total)
+T0830 000:950 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0xC8 JTAG> >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0xC8 JTAG> (0169ms, 0974ms total)
+T0830 018:227 JLINK_Close() (0016ms, 0990ms total)
+T0830 018:227  (0016ms, 0990ms total)
+T0830 018:227 Closed (0016ms, 0990ms total)

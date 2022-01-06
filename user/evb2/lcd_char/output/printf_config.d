@@ -1,0 +1,13 @@
+.\output\printf_config.o: ..\..\..\printf_uart\printf_config.c
+.\output\printf_config.o: ..\..\..\printf_uart\printf_config.h
+.\output\printf_config.o: ..\..\..\as32m0\as32m0.h
+.\output\printf_config.o: ..\..\..\CMSIS\core_cm0.h
+.\output\printf_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\printf_config.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\printf_config.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\printf_config.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\printf_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\printf_config.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\printf_config.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\printf_config.o: ..\..\..\FWLib\as32m0_sysctrl.h
+.\output\printf_config.o: ..\..\..\FWLib\as32m0_pinctrl.h

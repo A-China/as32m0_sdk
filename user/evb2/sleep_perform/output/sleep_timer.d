@@ -1,0 +1,15 @@
+.\output\sleep_timer.o: sleep_timer.c
+.\output\sleep_timer.o: ..\..\..\printf_uart\printf_config.h
+.\output\sleep_timer.o: ..\..\..\as32m0\as32m0.h
+.\output\sleep_timer.o: ..\..\..\CMSIS\core_cm0.h
+.\output\sleep_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\sleep_timer.o: ..\..\..\CMSIS\core_cmInstr.h
+.\output\sleep_timer.o: ..\..\..\CMSIS\core_cmFunc.h
+.\output\sleep_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\sleep_timer.o: ..\..\..\FWLib\as32m0_uart.h
+.\output\sleep_timer.o: ..\..\..\FWLib\as32m0_sleep.h
+.\output\sleep_timer.o: ..\..\..\FWLib\as32m0_pinctrl.h
+.\output\sleep_timer.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\sleep_timer.o: ..\..\..\FWLib\as32m0_sysctrl.h
+.\output\sleep_timer.o: ..\..\..\FWLib\as32m0_timer.h
+.\output\sleep_timer.o: ..\..\..\FWLib\as32m0_misc.h

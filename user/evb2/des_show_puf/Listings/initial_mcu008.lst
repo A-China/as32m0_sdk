@@ -1,0 +1,58 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 EXPORT           initial_MCU008
+    2 00000000                 AREA             INITIAL_CODE, CODE, READONLY
+    3 00000000                 ALIGN
+    4 00000000                 ENTRY
+    5 00000000         initial_MCU008
+                               PROC
+    6 00000000 4A03            LDR              R2, =0x400600A0
+    7 00000002 4B04            LDR              R3, =0x0000012D
+    8 00000004 6013            STR              R3, [R2]
+    9 00000006 4A04            LDR              R2, =0x40090000
+   10 00000008 4B04            LDR              R3, =0x00000000
+   11 0000000A 6013            STR              R3, [R2]
+   12 0000000C 4770            BX               LR
+   13 0000000E                 ENDP
+   14 0000000E         
+   15 0000000E         
+   16 0000000E                 END
+              00 00 400600A0 
+              0000012D 
+              40090000 
+              00000000 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
+ork --depend=.\output\initial_mcu008.d -o.\output\initial_mcu008.o -I.\RTE\_as3
+2m0 -IC:\Users\Wilson_Ho\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARM
+CM0\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --predef
+ine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 528" --predefine="A
+RMCM0 SETA 1" --list=.\listings\initial_mcu008.lst ..\..\..\as32m0\initial_MCU0
+08.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+INITIAL_CODE 00000000
+
+Symbol: INITIAL_CODE
+   Definitions
+      At line 2 in file ..\..\..\as32m0\initial_MCU008.s
+   Uses
+      None
+Comment: INITIAL_CODE unused
+initial_MCU008 00000000
+
+Symbol: initial_MCU008
+   Definitions
+      At line 5 in file ..\..\..\as32m0\initial_MCU008.s
+   Uses
+      At line 1 in file ..\..\..\as32m0\initial_MCU008.s
+Comment: initial_MCU008 used once
+2 symbols
+338 symbols in table

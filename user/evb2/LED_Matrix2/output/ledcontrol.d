@@ -1,0 +1,15 @@
+.\output\ledcontrol.o: Src\LedControl.c
+.\output\ledcontrol.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\ledcontrol.o: ..\..\..\as32m0\as32m0.h
+.\output\ledcontrol.o: ..\..\..\CMSIS\core_cm0.h
+.\output\ledcontrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\ledcontrol.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\ledcontrol.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\ledcontrol.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\ledcontrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\ledcontrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\ledcontrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\ledcontrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\ledcontrol.o: Src\LedControl.h
+.\output\ledcontrol.o: Src\max7219_config.h
+.\output\ledcontrol.o: ..\..\..\FWLib\as32m0_ssp.h

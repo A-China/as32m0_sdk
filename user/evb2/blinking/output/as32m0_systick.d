@@ -1,0 +1,9 @@
+.\output\as32m0_systick.o: ..\..\..\FWLib\as32m0_systick.c
+.\output\as32m0_systick.o: ..\..\..\FWLib\as32m0_systick.h
+.\output\as32m0_systick.o: ..\..\..\as32m0\as32m0.h
+.\output\as32m0_systick.o: ..\..\..\CMSIS\core_cm0.h
+.\output\as32m0_systick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\as32m0_systick.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\as32m0_systick.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\as32m0_systick.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\as32m0_systick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

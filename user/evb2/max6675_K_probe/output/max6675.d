@@ -1,0 +1,14 @@
+.\output\max6675.o: Src\max6675.c
+.\output\max6675.o: Src\max6675.h
+.\output\max6675.o: ..\..\..\FWLib\as32m0_ssp.h
+.\output\max6675.o: ..\..\..\as32m0\as32m0.h
+.\output\max6675.o: ..\..\..\CMSIS\core_cm0.h
+.\output\max6675.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\max6675.o: ..\..\..\CMSIS\cmsis_version.h
+.\output\max6675.o: ..\..\..\CMSIS\cmsis_compiler.h
+.\output\max6675.o: ..\..\..\CMSIS\cmsis_armcc.h
+.\output\max6675.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\max6675.o: ..\..\..\FWLib\as32m0_pinctrl.h
+.\output\max6675.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\max6675.o: ..\..\..\FWLib\as32m0_misc.h
+.\output\max6675.o: ..\..\..\FWLib\as32m0_uart.h

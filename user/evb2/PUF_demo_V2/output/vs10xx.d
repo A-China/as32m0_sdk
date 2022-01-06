@@ -1,0 +1,11 @@
+.\output\vs10xx.o: vs10xx.c
+.\output\vs10xx.o: vs10xx.h
+.\output\vs10xx.o: ..\..\..\FWLib\as32m0_gpio.h
+.\output\vs10xx.o: ..\..\..\as32m0\as32m0.h
+.\output\vs10xx.o: ..\..\..\CMSIS\core_cm0.h
+.\output\vs10xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\vs10xx.o: ..\..\..\CMSIS\core_cmInstr.h
+.\output\vs10xx.o: ..\..\..\CMSIS\core_cmFunc.h
+.\output\vs10xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\vs10xx.o: ..\..\..\FWLib\as32m0_ssp.h
+.\output\vs10xx.o: ..\..\..\FWLib\as32m0_dma.h
